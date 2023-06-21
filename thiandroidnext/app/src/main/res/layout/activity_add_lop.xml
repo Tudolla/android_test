@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".AddLop">
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Them lop hoc"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/teal_200"
+        />
+    <EditText
+        android:id="@+id/tenlop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ten lop"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:id="@+id/mota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mo ta"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <Button
+        android:id="@+id/themlop"
+        android:layout_marginTop="50dp"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Them lop"
+        android:backgroundTint="@color/teal_200"/>
+    <Button
+        android:id="@+id/xemlop"
+
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Xem lop"
+        android:backgroundTint="@color/teal_200"/>
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

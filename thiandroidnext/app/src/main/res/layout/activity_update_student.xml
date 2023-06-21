@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".UpdateStudent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cap nhat sinh vien"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_200"
+        />
+    <EditText
+        android:id="@+id/id"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ID sinh vien"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:id="@+id/name"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ten sinh vien"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:id="@+id/email"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap email sinh vien"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:id="@+id/address"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap dia chi sinh vien"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:id="@+id/year"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap nam hoc sinh vien"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:id="@+id/capnhat"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:backgroundTint="@color/teal_200"
+        />
+    <Button
+        android:id="@+id/xem"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:backgroundTint="@color/teal_200"
+        />
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

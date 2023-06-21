@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".DeleteStudent">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xoa sinh vien"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/idsv"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ten sinh vien"/>
+    <Button
+        android:id="@+id/xoa"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Xoa"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/xem"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Xem danh sach cap nhat"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginTop="10dp"/>
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

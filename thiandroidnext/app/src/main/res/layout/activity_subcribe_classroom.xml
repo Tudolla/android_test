@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".SubcribeClassroom">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dang ki lop hoc"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_200"/>
+    <EditText
+        android:id="@+id/idlop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap id lop hoc"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:id="@+id/idsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap id sinh vien"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/dk"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Dang ki"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/xem"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Xem danh sach"
+        android:backgroundTint="@color/teal_200"
+        />
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
